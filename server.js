@@ -23,7 +23,7 @@ app.use('/api/profile', profile);
 app.use('/api/post', post);
 
 app.get('/', (req, res) => {
-    res.send("Hello World from the server site of Devchamber");
+    res.send("Hello World from the server site of Dev Chamber");
 });
 
 app.listen(port, () => console.log(`Server running on port ${port}`));
